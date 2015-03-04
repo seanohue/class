@@ -19,30 +19,33 @@ function inventoryItem (name, value, modifier, description) {
 	this.itemDescription = description;
 }
 
+function roomItem(name, taken) {
+	this.itemName = name;
+	this.itemTaken = false;
+	this.roomID = 0;
+}
+
+function menuItem() {
+	this.menuID = 0;
+	this.stdDescription = " ";
+	this.altDescription = " ";
+	this.roomID = 0;		//Not sure if this will be used
+}
+
 function room() {
+	this.roomID = 0;
 	this.roomName = " ";
-	this.roomNumber = 0;
-	this.roomDelimeter = "----------";
 	this.roomDescription = " ";
+	this.numberMenuOptions = 4;
+	this.numberItems = 2;
+	this.roomDelimeter = "----------";
 
-	this.menuOption1 = " ";
-	this.menuOption1_alt = " ";
-	this.menuOption2 = " ";
-	this.menuOption2_alt = " ";
-	this.menuOption3 = " ";
-	this.menuOption3_alt = " ";
-	this.menuOption4 = " ";
-	this.menuOption4_alt = " ";
+	this.menuOption = [1];
+	this.roomItem = [1];
+	
+	
 
-	this.roomItem1 = " ";
-	this.roomItem1_taken = false;
-	this.roomItem2 = " ";
-	this.roomItem2_taken = false;
-	this.roomItem3 = " ";
-	this.roomItem3_taken = false;
-	this.roomItem4 = " ";
-	this.roomItem4_taken = false;
-
+	
 }
 
 function game() {

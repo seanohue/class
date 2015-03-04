@@ -1,8 +1,11 @@
 //var sg = require('sget');
 
 function player(inventory, startRoom) {
-	this.inventory = inventory;
+	this.inventory = inventory[];
 	this.currentRoom = startRoom;
+	this.hitpoints = 100;
+	this.strength = 5;
+	this.speed = 10;
 	
 	this.viewInventory = function(){};
 	this.addInventory = function(){};
@@ -47,6 +50,7 @@ function game() {
 	this.startGame = function() {
 		console.log("The game is afoot!");
 	};
+
 	this.exitGame = function(){process.exit(0);};
 	this.printRoom = function() {};
 	this.getChoice = function() {};

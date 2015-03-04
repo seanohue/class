@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+</head>
+<body>
+	<div id="header">
+		<ul id="menu_list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="inventory.html">Products</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<div id="company_info">
+		<h1>T<sup>2</sup> Weapon Emporium!</h1>
+	</div>
+
+		<form>
+			<fieldset>
+				<legend>Contact Us!</legend>
+				First Name: <input type="text" name="firstname" maxlength=25 value = "First Name"/>
+				<br />
+				Last Name: <input type="text" name="lastname" size=50 value = "Last Name"/>
+				<br /> 
+				Email Address <input type="email" name="email"/>
+				<br / >
+				<hr />
+
+				<h3>Are you excited?</h3>
+				<div id="radio">
+					<label for="yes">YES <input type="radio" name="excited" id="yes"/></label>
+					<label for="no">NO <input type="radio" name="excited" id="no"/></label>
+				</div>
+				<h3>HOW EXCITED?!?!</h3>
+				<div id="dropbox">
+					<select name="pick">
+						<option value="1">AFRAID</option>
+						<option value="2">SORT OF</option>
+						<option value="3">SUPER!</option>
+					</select>
+				</div>
+				<hr/>
+				
+				<h3>GO!</h3>
+				<div id="buttons">
+					<input type="reset" value ="Reset" />
+					<input type="submit" value="Submit" />
+				</div>
+			</fieldset>
+		</form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* Stylesheet for Experiment #2 */
+
+* {
+	font-size: 18px;
+}
+
+#overall_container {
+	width: 800px;
+	background-color: #F0F0F0;
+	border: 2px solid black;
+	
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#overall_container p {
+	margin-left: 0.25em;
+}
+
+#link_menu ul {
+ font-size: 175%;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 0;
+ display: inline;
+ border-bottom: 2px dashed black;
+;
+
+ } 
+
+#link_menu ul li {
+ padding: 3px 15px;
+ border-left: 1px solid #000;
+ list-style: none;
+ display: inline;
+ }
+ 
+  
+#link_menu ul li:first-child {
+ border-left: none;
+ list-style: none;
+ display: inline;
+ }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>TOOOOOOOOOM</title>
+		<link rel="stylesheet" type="text/css" href="css/experiment_1.css" />
+	</head>
+
+	<body>
+		<!-- Menu Header --> 
+		<div id="header">
+			<ul id="menu_list">
+				<li><a href="#table">Table</a></li>
+				<li><a href="#list">Lists</a></li>
+				<li><a href="#blocks">Divs and Spans</a></li>
+				<li><a href="#forms">Forms</a></li>
+			</ul>
+		</div>
+
+		<!-- Main content. ID'd for styling later -->
+		<div id="container">
+			<div id="table">	<!-- TABLE STUFF -->
+				<table>
+					<thead>
+						<tr>
+							<TH>&nbsp;</TH>
+							<TH>MON</TH>
+							<TH>TUES</TH>
+							<TH>WED</TH>
+							<TH>THUR</TH>
+							<TH>FRI</TH>
+							<TH>SAT</TH>
+							<TH>SUN</TH>
+						</tr>
+					</thead>
+					<tbody>
+						
+						<tr>
+							<th>AM</th>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td rowspan="2">5</td>
+							<td colspan="2">6</td>
+							<!--<td>7</td>-->
+						</tr>
+						
+						<tr>
+							<th>PM</th>
+							<td>a</td>
+							<td>b</td>
+							<td>c</td>
+							<td>d</td>
+							<!-- <td>e</td> --> 
+							<td>f</td>
+							<td>g</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+				<p>&nbsp;</p>
+			<div id="list">				<!-- PLAYING WITH LISTS -->
+
+			</div>
+			
+				<p>&nbsp;</p>
+
+			<div id="blocks">			<!--- PLAYING WITH LAYOUT FROM BLOCK ELEMENTS -->
+				<div id="spacer">
+					<p>SPACE!</p>
+					<img src="images/rocketship.png" id="rocket_img" width=333px height=326px />
+				</div>
+			</div>
+				<p>&nbsp;</p>
+			
+
+			<!-- FORM STUFF -->
+			<form id="music_form" action="./new.html" method="get">
+				<fieldset id="forms">
+					<legend>TOM FORM PRO GOLD</legend>
+					<label for="name_entry">Who?:</label>
+					<input type="text" name="username" maxlength="30" id="name_entry"/>
+						<br />
+					<label><input type="radio" name="genre" value="rock"/>Rock</label>
+					<label><input type="radio" name="genre" value="folk"/>Folk</label>
+					<label><input type="radio" name="genre" value="blus"/>Blues</label>
+					<label><input type="radio" name="genre" value="classical"/>Classical</label>
+						<hr />
+					<label><input type="checkbox" name="radio" value="AM"/>AM</label>
+					<label><input type="checkbox" name="radio" value="FM"/>FM</label>
+					<label><input type="checkbox" name="radio" value="shortwave"/>Shortwave</label>
+						<br />
+					<input type="submit" value ="GO!" />
+				</fieldset>
+			</form>
+		</div>
+
+		<div id="floater">	<!-- Little floaty-footer to pop you to the top -->
+			<a href="#top">^Top!^</a>
+		</div>
+	</body>
+</html>

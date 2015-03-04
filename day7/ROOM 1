@@ -1,0 +1,18 @@
+ROOM 1 
+	- View Inventory
+	- Quit
+	- Goto ROOM 2
+		-View Inventory
+		-Return to 1
+		-Pickup Item (disable after pickup)
+		-Fight
+			-Have item?
+				-Y: WIn
+				-N: Die
+	-Goto ROOM 3
+		-View Inventory
+		-Pickup Item
+			-Use Item
+				-Die
+-Die?
+	-Return to Room 1

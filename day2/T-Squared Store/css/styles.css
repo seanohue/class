@@ -1,0 +1,129 @@
+/*-- Navigation Menu --*/
+#menu_list {
+	font-weight: bold;
+}
+
+#menu_list li {
+	display: inline;
+}
+
+#menu_list li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #1E6E85;
+	background-color: #F5F553;
+}
+
+#menu_list li a:hover {
+	color: #fff;
+	background-color: #ee3e80;
+}
+
+/*--------------------------------------*/
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+table, td, th {
+
+	border: 2px solid black;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+body {
+	font-family: "Comic Sans MS", fantasy;
+	font-size: 24px;
+	background-color: pink;
+}
+
+#container { 
+	width: 800px;
+	border: 3px solid #ee3e80;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	background-color: white;
+	border-radius: 30px;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	cursor: cell;
+}
+
+legend {
+	background-color: white;
+	border: 3px solid #ee3e80;
+	font-size: 36px;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	cursor: cell;
+	text-transform: uppercase;
+}
+
+fieldset {
+	background-color: white;
+	width: 800px;
+	border: 3px solid #ee3e80;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	cursor: cell;
+}
+
+#radio {
+	width: 160px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+select {
+	width: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	display: block;
+}
+
+input {
+	font-size: 18px;
+}
+
+input[type="submit"], input[type="reset"]{
+	font-size: 18px;
+}
+
+#buttons {
+	width: 160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.price {
+	text-align: right;
+}
+
+#sale {
+	position: absolute;
+	z-index: 100;
+	top: 880px;
+	left: 31%;
+}
+
+#new_item {
+	position: absolute;
+	z-index: 100;
+	left: 31%;
+	top: 415px;
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TOM! Day 2</title>
+	</head>
+
+	<body>
+		<table>
+			<thead>
+				<tr>
+					<th>1</th>
+					<th>2</th>
+					<th>3</th>
+					<th>4</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+					<td>16</td>
+				</tr>
+				<!-- extra stuff -->
+				<tr>
+					<td colspan=2>ABC</td>
+					<td colspan=2>DEF</td>
+				</tr>
+				<tr>
+					<td rowspan=2>G</td>
+					<td>H</td>
+					<td rowspan=2>I</td>
+					<td>J</td>
+				</tr>
+				<tr>
+					<td>K</td>
+					<td>L</td>
+				</tr>
+			</tbody>
+		</table>
+		<!--           FORM STUFF        -->
+		<hr/>
+		<form>
+			<fieldset>
+				<legend>POTATO</legend>
+				First Name: <input type="text" name="firstname" maxlength=25 />
+				<br />
+				Last Name: <input type="text" name="lastname" size=50 value = "Last Name"/>
+				<br /> 
+				Blurgh?: <input type="text" name="blurgh" value="BLURGH" readOnly = true />
+				<br / >
+				Password: <input type="password" />
+				<hr />
+				<h3>RADIO?</h3>
+				<label for="am">AM <input type="radio" name="radio" id="am"/></label>
+				<label for="fm">FM <input type="radio" name="radio" id="fm"/></label>
+				<label for="pm">PM <input type="radio" name="radio" id="pm"/></label>
+				<label for="pandora">PANDORA <input type="radio" name="radio" id="pandora"/></label>
+				<hr />
+				<h3>Chickn</h3>
+				<label for="cluck">CLUCK <input type="checkbox" name="chickn" id="cluck"/></label>
+				<label for="duck">DUCK <input type="checkbox" name="chickn" id="duck"/></label>
+				<label for="bckgaw">BCKGAW! <input type="checkbox" name="chickn" id="bckgaw"/></label>
+				<hr/>
+				<h3>PICK</h3>
+				<select name="pick">
+					<option value="TOM">TOM</option>
+					<option value="TOM!">TOM!</option>
+					<option value="TOM?">TOM?</option>
+				</select>
+				<hr/>
+				<h3>GO!</h3>
+				<input type="reset" value ="DON'T DO IT" />
+				<input type="submit" value="DOOOO IT" />
+			</fieldset>
+		</form>
+		<hr />
+	</body>
+</html>

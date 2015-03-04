@@ -1,17 +1,16 @@
 //var sg = require('sget');
 
 function player(inventory, startRoom) {
-	this.inventory = inventory[];
+	this.inventory = inventory;
 	this.currentRoom = startRoom;
 	this.hitpoints = 100;
 	this.strength = 5;
 	this.speed = 10;
-	
-	this.viewInventory = function(){};
-	this.addInventory = function(){};
-	this.removeInventory = function(){};
-	this.useInventory = function(){}; 
 }
+	player.prototype.viewInventory = function(){};
+	player.prototype.addInventory = function(){};
+	player.prototype.removeInventory = function(){};
+	player.prototype.useInventory = function(){}; 
 
 function inventoryItem (name, value, modifier, description) {
 	this.itemName = name;
@@ -47,14 +46,18 @@ function room() {
 }
 
 function game() {
-	this.startGame = function() {
-		console.log("The game is afoot!");
+	this.Name = "Adventure";
+}
+	game.prototype.startGame = function() {
+			console.log("The game is afoot!");
+			game.prototype.exitGame();
 	};
 
-	this.exitGame = function(){process.exit(0);};
-	this.printRoom = function() {};
-	this.getChoice = function() {};
-}
+	game.prototype.exitGame = function(){
+		process.exit(0);
+	};
+	game.prototype.printRoom = function() {};
+	game.prototype.getChoice = function() {};
 
 function exitGame() {
 	process.exit(0);
